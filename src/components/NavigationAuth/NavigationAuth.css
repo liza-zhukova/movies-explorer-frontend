@@ -1,0 +1,33 @@
+.navigation__auth{
+    display: flex;
+    margin: 21px;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.navigation__auth_signup{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Inter', 'Arial Black', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.navigation__auth_signin{
+    margin: 0;
+    color: #000000;
+    font-family: 'Inter', 'Arial Black', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    background-color:  #2BE080;
+    width: 76px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3%;
+    margin-left: 30px;
+}

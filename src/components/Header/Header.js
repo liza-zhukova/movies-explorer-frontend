@@ -3,7 +3,7 @@ import Navigation from '../Navigation/Navigation';
 import headerLogo from '../../images/logo.svg';
 import './Header.css';
 
-function Header(headerClass){
+function Header({headerClass}){
     return(
       <header className={`header ${headerClass}`}>
         <Link to='/' className='header__logo'>
