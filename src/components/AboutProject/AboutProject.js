@@ -24,11 +24,15 @@ function AboutProject() {
       </h3>
       </div>
       </div>
-      <div className='about_project__during'>
-          <div className='about_project__during_backend'>1 неделя</div>
-          <div className='about_project__during_frontend'>4 недели</div>
-          <h4 className='about-project__during-name'>Back-end</h4>
-          <h4 className='about-project__during-name'>Front-end</h4>
+      <div className='about-project__during'>
+        <div className='about-project__during-container'>
+          <div className='about-project__during_backend'>1 неделя</div>
+          <div className='about-project__during_frontend'>4 недели</div>
+          </div>
+          <div className='about-project__during-container'>
+          <h4 className='about-project__during-title'>Back-end</h4>
+          <h4 className='about-project__during-title_frontend'>Front-end</h4>
+          </div>
       </div>
       </section>
     );

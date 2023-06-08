@@ -1,9 +1,10 @@
 import arrow from '../../images/arrow_link.svg';
+import './Portfolio.css';
 
 function Portfolio() {
     return (
       <section className='portfolio'>
-        <h1 className='portfolio__header'>Портфолио</h1>
+        <h1 className='portfolio__title'>Портфолио</h1>
         <ul className='portfolio__list'>
           <li className='portfolio__item'>
             <a

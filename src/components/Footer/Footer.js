@@ -1,11 +1,13 @@
+import './Footer.css';
+
 function Footer() {
     return (
       <footer className='footer'>
-        <h3 className='footer__header'>
+        <h3 className='footer__title'>
           Учебный проект Яндекс.Практикум х BeatFilm.
         </h3>
-        <hr className='footer__line'></hr>
-        <span className='footer__date'>&copy; {new Date().getFullYear()}</span>
+        <div className='footer__container'>
+        <span className='footer__year'>&copy; {new Date().getFullYear()}</span>
         <ul className='footer__list'>
           <li className='footer__item'>
             <a
@@ -28,6 +30,7 @@ function Footer() {
             </a>
           </li>
         </ul>
+        </div>
       </footer>
     );
   }
