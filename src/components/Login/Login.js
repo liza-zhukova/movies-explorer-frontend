@@ -1,12 +1,13 @@
 import AuthForm from '../AuthForm/AuthForm';
 import Header from '../Header/Header';
+import './Login.css';
 
 function Login() {
   return (
     <>
-    <Header headerClass='header_auth' />
     <section className='login'>
-      <h1 className='login__title'>Рады видеть!</h1>
+    <Header headerClass='header_auth' />
+      <h1 className='auth__title'>Рады видеть!</h1>
       <AuthForm
         linkText='Ещё не зарегистрированы?'
         buttonText='Регистрация'

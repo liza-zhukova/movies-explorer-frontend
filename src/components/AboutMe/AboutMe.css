@@ -20,13 +20,13 @@
     margin: 0;
     display: flex;
     margin-top: 66px;
+    justify-content: space-between;
 }
 
 .user__container_opinion{
     margin: 0;
     display: flex;
     flex-direction: column;
-    margin-right: 270px;
 }
 
 .user__name{
@@ -58,6 +58,7 @@
 
 .user__source{
     margin: 0;
+    padding: 0;
     color: #000000;
     font-family: 'Inter', 'Arial Black', sans-serif;
     font-size: 14px;

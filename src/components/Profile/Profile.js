@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
 import Validation from "../../utils/Validation";
+import './Profile.css';
 
 function Profile(){
   useEffect(() => {
@@ -14,7 +15,7 @@ function Profile(){
   });
   return (
     <>
-    <Header headerClassName='header_movies' />
+    <Header headerClass='header_movies' />
     <section className='profile'>
       <h1 className='profile__title'>Привет, Елизавета!</h1>
       <form className='profile__form' name='profile'>
@@ -22,9 +23,8 @@ function Profile(){
           <span className='profile__name'>Имя</span>
           <input className='profile__input' placeholder='Имя' ></input>
         </label>
-        <hr className='profile__line'></hr>
         <label className='profile__label'>
-          <span className='profile__email'>E-mail</span>
+          <span className='profile__name'>E-mail</span>
           <input className='profile__input' placeholder='E-mail'></input>
         </label>
         <button className='profile__submit'>Редактировать</button>

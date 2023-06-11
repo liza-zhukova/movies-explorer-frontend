@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import './NavigationMovie.css';
 
 function NavigationMovie() {
   const location = useLocation().pathname;
@@ -50,9 +51,6 @@ function NavigationMovie() {
               className='navigation-main__link navigation-main__link_account'
             >
               <span>Аккаунт</span>
-              <div className='navigation-main__link_account-image'>
-                <img alt='иконка юзера' />
-              </div>
             </Link>
           </li>
         </ul>

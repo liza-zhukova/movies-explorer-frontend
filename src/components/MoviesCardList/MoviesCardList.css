@@ -1,0 +1,14 @@
+.all-movies{
+    margin: 0 auto;
+    width: 1140px;
+    
+}
+
+.all-movies__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-movies__item {
+    width: 33.33%;
+}

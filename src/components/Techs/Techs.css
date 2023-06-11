@@ -52,7 +52,6 @@
 .techs__list-item{
     margin: 0;
     width: 90px;
-    height: 60px;
     background-color: #E8E8E8;
     color: #000000;
     font-family: 'Inter', 'Arial Black', sans-serif;
@@ -60,6 +59,9 @@
     font-weight: 400;
     margin-right: 10px;
     border-radius: 10%;
+    padding-top: 23px;
+    text-align: center;
+    padding-bottom: 23px;
 }
 
 .techs__list-item:last-child{

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import Validation from '../../utils/Validation';
+import './AuthForm.css';
 
 function AuthForm({
   children,
@@ -21,13 +22,12 @@ function AuthForm({
     <>
       <form className='form-auth' name={formName}>
         {children}
-        <label className='form-auth__lable'>
+        <label className='form-auth__label'>
           <span className='form-auth__hint'>E-mail</span>
           <input name='Email' className='form-auth__input' required></input>
-          <hr className='form-auth__line'></hr>
           <span id='Email' className='form-auth__error'></span>
         </label>
-        <label className='form-auth__lable'>
+        <label className='form-auth__label'>
           <span className='form-auth__hint'>Пароль</span>
           <input
             name='password'
@@ -35,17 +35,16 @@ function AuthForm({
             type='password'
             required
           ></input>
-          <hr className='form-auth__line'></hr>
           <span id='password' className='form-auth__error'></span>
         </label>
-        <button className='form-auth__submit'>{submitText}</button>
+        <button className='form-auth__submit' type="submit">{submitText}</button>
       </form>
-      <span className='form-auth__link'>
+      <div className='form-auth__text'>
         {linkText}
-        <Link to={url} className='form-auth__link_login'>
+        <Link to={url} className='form-auth__link'>
           {buttonText}
         </Link>
-      </span>
+      </div>
     </>
   );
 }

@@ -1,6 +1,9 @@
+import "./MoviesCard.css"
+
 function MoviesCard() {
   return (
     <article className='movie'>
+      <img className='movie__image' src='https://s2.best-wallpaper.net/wallpaper/1600x1200/1901/Four-white-kittens-in-a-basket_1600x1200.jpg' alt='movie' />
       <h1 className='movie__title'>33 слова о дизайне</h1>
       <h3 className='movie__duration'>1ч 47м</h3>
       <label className='movie__save' id='label'>

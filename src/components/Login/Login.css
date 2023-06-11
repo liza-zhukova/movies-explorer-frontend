@@ -1,0 +1,9 @@
+.login{
+    margin: 52px auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 396px;
+}
+
